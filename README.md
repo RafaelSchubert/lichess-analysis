@@ -1,4 +1,4 @@
-# Prediction Model for the Outcome of Chess Matches in Lichess
+# Prediction Model for the Outcome of Chess Matches on Lichess
 
 This project is my first attempt at analyzing a real dataset and developing a prediction model for it -- specifically, a classification model -- using supervised learning techniques.
 
@@ -29,7 +29,9 @@ In the `analysis.ipynb` notebook file, you will find the whole process I went th
 - model building and training;
 - and model testing.
 
-Keep in mind that this was a very extensive analysis, so it is going to be a long read.
+The analysis was performed in the [Google Colab](https://colab.research.google.com/) environment using [Python](https://www.python.org/) as the programming language of choice, along with some of its well-known libraries: [Matplotlib](https://matplotlib.org/), [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [Scikit-Learn](https://scikit-learn.org/) and [SciPy](https://www.scipy.org/).
+
+Keep in mind that this was a very extensive analysis, so it is a long read. If you are interested, grab a cup of coffee or tea of your choice and take it easy. ;)
 
 ### 3) The Poster
 
