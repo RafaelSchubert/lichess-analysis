@@ -2,6 +2,8 @@
 
 This project is my first attempt at analyzing a real dataset and developing a prediction model for it -- specifically, a classification model -- using supervised learning techniques.
 
+---
+
 ## Goal
 
 The goal was to develop a prediction model that was able to predict the outcome of any given chess match played on [Lichess](https://lichess.org/) (a free, open-source online chess server), with a minimum precision of 80%.
@@ -11,6 +13,8 @@ Three classification algorithms were tested and compared, of which that with the
 - Decision Tree;
 - Multi-Class Logistic Regression;
 - Random Forest.
+
+---
 
 ## Artifacts
 
@@ -37,11 +41,25 @@ Keep in mind that this was a very extensive analysis, so it is a long read. If y
 
 The activity required us to analyze a dataset, seeking to solve a prediction problem -- both of our choice --, and to produce an A3-size poster about the process and our findings. This poster is what you will find in the `poster_pt-br.pdf` PDF file.
 
+---
+
 ## Results
 
 Of the three candidate algorithms, the Random Forest classifier achieved the best performance, with a precision of 80,7%.
 
 The final prediction model achieved a precision of 80.1%, which is very close to the minimum precision expected for it.
+
+##### Confusion matrix over the predictions for the test phase.
+
+| Real      | Predicted      |             |               |            |
+|:----------|---------------:|------------:|--------------:|-----------:|
+|           | `black`        | `draw`      | `white`       | **Total**  |
+| `black`   |          1,308 |           0 |           314 |  **1,622** |
+| `draw`    |             66 |          16 |            72 |    **154** |
+| `white`   |            286 |           0 |         1,497 |  **1,783** |
+| **Total** |      **1,660** |      **16** |     **1,883** |  **3,559** |
+
+---
 
 ## Possible improvements
 
