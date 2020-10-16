@@ -8,9 +8,17 @@ The dataset used in this project can be found [here](https://www.kaggle.com/data
 
 The goal was to develop a prediction model that was able to predict the outcome of any given chess match played on Lichess, with a minimum precision of 80%.
 
+Three classification algorithms were tested and compared, of which that with the best performance was chosen to build the final prediction model:
+
+- Decision Tree;
+- Multi-Class Logistic Regression;
+- Random Forest.
+
 ## Results
 
-The resulting prediction model achieved a precision of 80.1%, which is very close to the minimum precision expected for it.
+Of the three candidate algorithms, the Random Forest classifier achieved the best performance, with a precision of 80,7%.
+
+The final prediction model achieved a precision of 80.1%, which is very close to the minimum precision expected for it.
 
 ## Possible improvements
 
